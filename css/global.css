@@ -15,3 +15,15 @@ body {
   --text: #707070;
   --unselected-fill: #a7a7a7;
 }
+
+h1,
+h3 {
+  color: var(--title);
+}
+
+h2,
+li,
+span,
+p {
+  color: var(--text);
+}
