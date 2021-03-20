@@ -26,6 +26,66 @@ h3 {
 h2,
 li,
 span,
-p {
+p,
+a {
   color: var(--text);
+}
+
+.container header {
+  margin: 30px auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container header .profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container header .profile img {
+  width: 94px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.container header .profile .name h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.container header .profile .name h2 {
+  margin-top: 5px;
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+.container header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container header nav li {
+  list-style: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.container header nav li + li {
+  margin-left: 30px;
+}
+
+.container header nav .active a {
+  color: var(--title);
+}
+
+.container header nav li a {
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.container header nav a:hover {
+  color: var(--title);
 }
